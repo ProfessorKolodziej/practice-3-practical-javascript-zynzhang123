@@ -26,8 +26,13 @@ h1 {
 	color: var(--color-primary);
 }
 
+
+.hide {
+	display: none;
+}
+
 /* This uses the same value as --size-xs. */
-@media screen and (width >= 320px) {
+@media screen and (width >=320px) {
 	.content-container {
 		margin: 0 auto;
 		max-width: 768px;
